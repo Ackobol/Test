@@ -1,0 +1,41 @@
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.body-main {
+  text-align: center;
+  margin: 0;
+}
+
+.image {
+  margin: 110px 380px 0;
+}
+
+.word {
+  margin: 10px 430px 0;
+  font-size: 120px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.info {
+  margin: 22px 430px 0;
+  font-size: 17px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.word:hover~.info {
+  opacity: 1;
+}
+
+.link {
+  margin: 280px 430px 30px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.linkya {
+  color: #2f80ed;
+}
